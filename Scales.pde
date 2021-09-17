@@ -7,7 +7,7 @@ void setup() {
 void draw() {
   for(int e = 0; e < 22; e++) {
     for(int t = 0; t < 22; t++) {
-      smile(t * 25, e * 25);
+      scale(t * 25, e * 25);
     }
   }
 }
